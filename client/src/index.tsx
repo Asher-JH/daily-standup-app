@@ -1,14 +1,14 @@
-import * as React from "react";
-import ReactDOM from "react-dom";
-import { ColorModeScript } from "@chakra-ui/react";
-import "@fontsource/manrope";
+import * as React from 'react';
+import ReactDOM from 'react-dom';
+import { ColorModeScript } from '@chakra-ui/react';
+import '@fontsource/manrope';
 
-import { App } from "./App";
+import { App } from './App';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <ColorModeScript />
-    <App />
-  </React.StrictMode>,
-  document.getElementById("root")
+    <React.StrictMode>
+        <ColorModeScript />
+        <App />
+    </React.StrictMode>,
+    document.getElementById('root')
 );
