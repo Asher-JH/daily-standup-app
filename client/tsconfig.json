@@ -27,6 +27,7 @@
       "@utils/*": ["utils/*"],
       "@constants/*": ["constants/*"],
       "@api/*": ["api/*"],
+      "@routes/*": ["routes/*"],
     }
   },
   "include": [
